@@ -1,0 +1,211 @@
+.infos{
+    margin-left: 200px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.infos img{
+    width: 40px;
+    float: left;
+}
+.sobre{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 150%;
+    position: relative;
+}
+
+.infos p{
+    margin: 0px;
+}
+.infos h4{
+    margin-bottom: 2px;
+    margin-top: 20px;
+}
+.infos li{
+margin-left: 20px;}
+*{
+    margin: 0;
+    padding: 0;
+    width: 85%;
+}
+img{
+    width: 20px;
+}
+#check{
+    display: none;
+}
+#icone{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+
+}  
+.barra{
+    background-color: rgb(71, 45, 77);
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    transition: all .2s linear;
+    left: -300px;
+    top: 0px;
+} 
+nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;            
+}    
+nav a{
+    text-decoration: none;            
+}
+.link{
+    background-color: #714396;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 12pt;
+    transition: all .2s linear;
+    color: #f4f4f9;
+    border-bottom: 2px solid rgb(38, 16, 41);
+}
+.link:hover{
+    background-color: #bd71db;
+}
+#check:checked ~ .barra{
+    transform: translateX(300px);
+}
+.perfil{
+    width: 50%;
+    background: rgb(168, 102, 223);
+    position: relative;
+    display: block;
+    margin-left: 350px;
+    margin-top: 200PX;
+    float: left;
+    position: absolute;
+    left: -47px;
+    transform: skewX(20deg);
+}
+
+.descricao{
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-right: 0;
+    width: 100%;
+}
+.fotos{
+    margin-left: 200px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.fotos img{
+    width: 160px !important;
+    height: 190px !important;
+    border-radius: 10px;
+    padding: 2px;
+    margin-right: 20px;
+    border: 5px inset #e64aa5;
+    background: #7f7ffa;
+    
+}
+.fotos img :hover{
+    display: none;
+}
+.fundo img{
+    width: 1000px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 230px;
+    position: absolute;
+    border-radius: 20px;
+    
+}
+#conteudo{
+    display: block;
+    position: relative;
+    margin-left: 5px;
+    width: 620px;
+    height: 200px;
+    float: right;
+ }
+ 
+ .box { 
+    width: 720px;
+    height: 300px;
+    border-radius: .5em;
+    top: 130px;
+}
+ 
+ .dados {
+    position: absolute;
+    left: -47px;
+    background: #b995d6;
+ }
+ .dados p{
+     float: right;
+     text-align: right;
+     margin-right: 60px;
+ }
+ .dados img{
+     margin-top: 20px;
+     margin-left: 600px;
+     width: 30px;
+ }
+ .dados h2{
+    float: right;
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+ }
+ 
+ .imgperfil_conteudo {
+    width: 350px;
+    overflow: hidden;
+    display: inline-block;
+    transform: skewX(-20deg);
+    margin-left: -86px;
+ }
+ 
+ .imgperfil {
+     margin-top: 130px;
+    transform: skewX(20deg);
+    margin-left: 60px;
+    background: url(images/devperfil.png) no-repeat;
+ }
+ .gifperfil{
+     z-index: 2;
+     position: absolute;
+     bottom: 80px;
+     left: 10px;
+     width: 90px;
+     left: 50px;
+
+ }
+ .gifperfil img{
+    width: 190px; 
+    margin-left: 280px;
+    margin-top: 0px;
+ }
+ .boasVindas{
+    width: 1000px !important;
+    height: 180px;
+    background: #b995d6;
+    margin-top: 500px;
+    position: absolute;
+    margin-left: 230px;
+    border-radius: 20px;
+
+ }
+ .boasVindas p{
+     color: black;
+     text-align: center;
+     font-size: 12pt;
+     text-shadow:rgb(185, 175, 175) 1px 1px;
+     margin-left: 65px;
+     margin-top: 20px;     
+ }
+ 
